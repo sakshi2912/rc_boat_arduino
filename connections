@@ -1,0 +1,10 @@
+Connections for Tx and Rx 
+
+VCC  - 3.3V
+GND  - GND
+SCK  - D13
+MISO - D12
+MOSI - D11
+CSN  - D8
+CE   - D7
+
