@@ -5,7 +5,7 @@
 Servo motor1;
 RF24 radio(7, 8); // CE, CSN
  int x_pos[2] ;
-const byte address[6] = "23456";
+const byte address[6] = "23456";  //any addres , but should match the transmitter 
 int angle=0;
 int motor_speed=0;
 const int EN1 = 3;
