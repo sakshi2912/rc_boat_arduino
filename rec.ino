@@ -8,6 +8,8 @@ RF24 radio(7, 8); // CE, CSN
 const byte address[6] = "23456";  //any addres , but should match the transmitter 
 int angle=0;
 int motor_speed=0;
+
+// Pins for motors on motor driver
 const int EN1 = 3;
 const int IN1 = 4;
 const int IN2 = 5;
