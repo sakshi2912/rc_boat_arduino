@@ -6,8 +6,8 @@ RF24 radio(7, 8); // CE, CSN
 
 
 const byte address[6] = "23456";   //any addres , but should match the reciever 
-const int x_key =A0;
-const int y_key =A1;
+const int x_key =A0; //joystick X
+const int y_key =A1; // joystick Y
 int x_pos[2];
 
 void setup() {
